@@ -31,7 +31,7 @@
     sasha "Заткнись, Ваня. Твоё просветление сегодня не окупит бензин. Дай профессионалам поработать."
     
     hide vanya with dissolve
-    show grandma normal at pos_5 with dissolve
+    show grandma at pos_5 with dissolve
     "К лотку подходит женщина с авоськой, подозрительно принюхиваясь."
     grandma "А не отравимся? Пахнет-то как... не по-нашему. Остро больно."
     
