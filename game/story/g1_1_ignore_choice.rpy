@@ -1,9 +1,10 @@
 ﻿label g1_1_ignore_choice:
     scene bg city_square_80s with fade
+    play music "audio/music/upbeat_instrumental.ogg" fadeout 1.5 fadein 1.5
 
-    show semen normal at center with dissolve
-    show vova normal at left with dissolve
-    show sasha normal at right with dissolve
+    show semen normal at pos_3 with dissolve
+    show vova normal at pos_1 with dissolve
+    show sasha normal at pos_5 with dissolve
 
     "Семён колеблется. Он смотрит на Вову, который уже мысленно считает прибыль, на Ваню, который стал центром внимания толпы, а затем переводит взгляд на Сашу."
     
@@ -16,31 +17,38 @@
     semen "Граждане! Это был розыгрыш! Первое апреля! Ну, почти. Шуточка! Никакой еды из будущего нет, а пророк — это наш друг Ваня, который просто перебрал вчера и перегрелся на солнце! Цирк закрыт! Расходимся!"
     
     "Толпа недовольно гудит. Бабушка в платочке смотрит на Ваню с разочарованием."
+    show semen normal at pos_2 with dissolve
+    show sasha normal at pos_4 with dissolve
+    show grandma at pos_5 with dissolve
     grandma "Вот те раз... А я уж думала, юродивый... А он просто пьяный, что ли?"
     
     "Мужчина в спецовке чешет затылок."
+    hide grandma with dissolve
+    show man at pos_5 with dissolve
     man "Эх, а так хорошо начиналось... А шаверма-то хоть настоящая?"
     
+    hide man with dissolve
+    
     "Вова, у которого буквально из рук вырывают золотую жилу, в ужасе смотрит на Семёна."
+    show vova azart with dissolve
     vova "Сём! Ты что творишь?! Это же стартовый капитал! Мы же почти продали первую партию! Ну ладно, не продали, но были на полпути!"
     
     "Семён хватает Вову за плечо и разворачивает его в сторону машины."
     semen "Вова, заткнись и иди. Пока нас не забрали в отделение за незаконную торговлю и мошенничество."
 
-    hide vova with dissolve
-    show vanya drunk at left with dissolve
+    show vanya pyan at pos_5 with dissolve
     
     "Ваня, который уже начал наслаждаться вниманием, растерянно оглядывается."
     vanya "А... а как же пророчества? Мне тут медяк дали..."
 
     hide vanya with dissolve
-    show sasha normal at right with dissolve
+    show sasha normal with dissolve
     
     "Саша подходит к Ване, кладёт тяжёлую руку ему на плечо и молча разворачивает к машине."
     sasha "Прорицатель, в машину. Твои пророчества нас до добра не доведут."
 
     hide sasha with dissolve
-    show zhenya philosophical at right with dissolve
+    show zhenya happy at pos_4 with dissolve
     
     "Женя, наблюдавший за этой сценой, философски пожимает плечами."
     zhenya "Мудрое решение, Семён. Мы не дали мифу укорениться. Теперь наш побег выглядит... как часть великого замысла!"

@@ -30,6 +30,34 @@ default friend = 0
 default ego = 0
 default absurd = 0
 
+
+# --- Пользовательские позиции для спрайтов ---
+transform pos_1: # Крайний левый
+    xalign 0.0
+    yalign 1.0
+    zoom 0.66
+
+transform pos_2: # Левый
+    xalign 0.25
+    yalign 1.0
+    zoom 0.66
+
+transform pos_3: # Центр
+    xalign 0.5
+    yalign 1.0
+    zoom 0.66
+
+transform pos_4: # Правый
+    xalign 0.75
+    yalign 1.0
+    zoom 0.66
+
+transform pos_5: # Крайний правый
+    xalign 1.0
+    yalign 1.0
+    zoom 0.66
+
+
 # --- СТАРТ ИГРЫ ---
 label start:
     # Отправляем игрока в самое начало

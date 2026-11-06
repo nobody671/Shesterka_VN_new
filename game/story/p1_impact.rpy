@@ -1,9 +1,11 @@
 ﻿label p1_impact:
     scene bg street_gai with fade
     stop music
+
+    play sound "audio/sfx/sfx_street.ogg"
     
-    show semen angry at center with dissolve
-    show sasha normal at right with dissolve
+    show semen normal at pos_3 with dissolve
+    show sasha normal at pos_5 with dissolve
     
     "Дверь здания ГАИ с силой распахивается. На пороге появляется Семён. Он замирает на секунду, его грудь тяжело вздымается. Затем он идёт к машине, не видя ничего вокруг."
     
@@ -16,38 +18,44 @@
     
     "Семён не отвечает. Он молча садится на просевшее сиденье, с силой захлопывает дверь. Звук глухой, окончательный. Он кладёт лоб на прохладный винил руля. В салоне на секунду воцаряется тишина."
     
-    show vova normal at left with dissolve
+    show vova normal at pos_1 with dissolve
     vova "Эй, Сёмён... Дыши, глубже. Сейчас я тебе расскажу схему, как мы это обойдём. У меня уже есть..."
+
+    hide semen with dissolve
+    show semen normal at pos_3 with dissolve
     
     semen "Заткнись."
     
     "Всё внутри него кипит. Стыд. Злость. На инспектора. На продавца машины \"Бибизяна\". На себя. На эту грёбаную железную коробку, которая принесла одни проблемы. Он сжимает руль так, что костяшки белеют."
     
     hide sasha with dissolve
-    show zhenya philosophical at right with dissolve
+    show zhenya happy at pos_4 with dissolve
     zhenya "Энергия негатива... она такая густая... Не надо давать ей волю, Сёмён. Она..."
     
     show semen angry with dissolve
     semen "Я СКАЗАЛ, ЗАТКНИСЬ ВСЕ!"
-    
+
+    hide zhenya
+    show zhenya scared at pos_4
     "Он издаёт низкий, сдавленный крик — звук чистой, животной фрустрации. И со всей силы бьётся головой о центр руля."
+    play sound "audio/sfx/sfx_head_thud.ogg"
     with vpunch
     "Раздаётся глухой удар."
     
     "На секунду всё замирает."
     
     "Затем —"
-    
+    play sound "audio/sfx/sfx_time_travel.ogg"
     hide all with dissolve
     with flash
-    "ЯРКАЯ БЕЛАЯ ВСПЫШКА, которая заливает весь экран, смывая все изображения и звуки."
+    "ЯРКАЯ БЕЛАЯ ВСПЫШКА, которая заливает всем глаза, смывая все изображения и звуки."
     
     vova "Что за..."
     
     zhenya "Ого..."
     
     "Звук превращается в высокочастотный писк, который затем переходит в оглушительный, всепоглощающий БЕЛЫЙ ШУМ."
-    "Вспышка держится несколько секунд, затем начинает спадать, переходя в эффект BLOOM — крайне яркое, размытое свечение, в котором тонут все очертания."
+    "Вспышка держится несколько секунд, затем начинает спадать, переходя в размытое свечение, в котором тонут все очертания."
     
     scene black with Dissolve(3.0)
     

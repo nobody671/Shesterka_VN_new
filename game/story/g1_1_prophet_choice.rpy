@@ -1,9 +1,10 @@
 ﻿label g1_1_prophet_choice:
     scene bg city_square_80s with fade
+    play music "audio/music/upbeat_instrumental.ogg" fadeout 1.5 fadein 1.5
 
-    show semen normal at center with dissolve
-    show vanya drunk at left with dissolve
-    show vova normal at right with dissolve
+    show semen normal at pos_3 with dissolve
+    show vanya pyan at pos_1 with dissolve
+    show vova normal at pos_5 with dissolve
 
     "Семён смотрит на растерянного Ваню, окружённого благоговейной толпой, и на Вову с его шавермой, которую пока никто не спешит покупать. В голове Семёна рождается безумная, но заманчивая идея."
     semen "Ваня, слушай меня внимательно. Просто кивай и говори что-нибудь... ну, в своём духе. Загадочное."
@@ -17,9 +18,12 @@
     man "Ух ты! Иностранная штука какая-то! Про блага-то как завернул!"
     
     "Бабушка в платочке крестится."
+    show grandma at pos_2 with dissolve
     grandma "Батюшки, да он про урожай намекает! Или про заграницу! Говори ещё, милок, говори!"
     
     "Ваня, понимая, что нужно что-то сказать, смотрит на пустую бутылку в своей руке."
+    hide grandma with dissolve
+    show vanya pyan with dissolve
     vanya "И это... тело... тело должно быть чистым... как стекло... чтобы свет проходил..."
     
     "Семён, не растерявшись, тут же переводит."
@@ -28,16 +32,17 @@
     "В толпе раздаются одобрительные возгласы. Кто-то даже тянет Ване медяк."
     
     "Вова, стоя в стороне с шавермой, смотрит на это безумие с нарастающим раздражением."
+    show vova azart with dissolve
     vova "Эй! Семён! Ты чего творишь? Я тут с золотом, с едой будущего, а ты мне всю клиентуру уводишь! Это же нечестная конкуренция!"
 
     hide vanya with dissolve
-    show zhenya philosophical at left with dissolve
+    show zhenya happy at pos_1 with dissolve
     
     "Женя, который внимательно наблюдал за происходящим, восхищённо качает головой."
     zhenya "Нет, Вова, это не конкуренция. Это... театр абсурда! Семён создаёт миф на глазах у публики! Это же чистое искусство!"
 
     hide vova with dissolve
-    show sasha normal at right with dissolve
+    show sasha normal at pos_5 with dissolve
     
     "Саша, до этого стоявший в тени, внезапно напрягается. Он делает шаг вперёд и тихо, но жёстко говорит Семёну на ухо."
     sasha "Сём, завязывай с искусством. У здания райкома стоят двое. В штатском. Один из них уже достал рацию. Кажется, они не фанаты пророков."
@@ -46,7 +51,7 @@
     semen "Так, Ваня, заканчивай проповедь. На сегодня чудес достаточно."
 
     hide zhenya with dissolve
-    show vanya drunk at left with dissolve
+    show vanya pyan at pos_1 with dissolve
     
     vanya "А что, уже пиво привезли?"
     

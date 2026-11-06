@@ -1,10 +1,8 @@
 ﻿label p2_5_race:
     scene bg soviet_dvorik_1981 with fade
-    play music "audio/chaotic_rock.ogg"
+    play music "audio/music/chaotic_rock.ogg" fadeout 1.5 fadein 1.5
 
-    show semen angry at center with dissolve
-
-    "Сцена является прямым продолжением выбора в сцене P2. Независимо от выбора, реакция Семёна оказывается взрывной. Он не может справиться с нахлынувшими эмоциями."
+    show semen angry at pos_3 with dissolve
     
     "Внезапно, срывающимся на крик голосом, который слышен даже поверх марша."
     semen "ЗАКРОЙТЕСЬ! ВСЕ! НАХУЙ!"
@@ -12,10 +10,10 @@
     with vpunch
     "Он с силой дёргает рычаг переключения передач, который издаёт скрежещущий звук. Он с яростью выжимает сцепление и давит на газ."
 
-    show sasha angry at left with dissolve
-    show vova panic at right with dissolve
-    show zhenya philosophical at left with dissolve
-    show vanya normal at right with dissolve
+    show sasha angry at pos_1 with dissolve
+    show vova scared at pos_5 with dissolve
+    show zhenya shocked at pos_2 with dissolve
+    show vanya scared at pos_4 with dissolve
 
     "В первый момент не понимая, что происходит, но чувствуя дикий крен."
     sasha "Эй, нахуярился чтоли, мудила? Тормозни!"
@@ -47,29 +45,32 @@
     "Визг тормозов. Машина резко останавливается."
     
     "В салоне наступает тишина, нарушаемая только тяжёлым дыханием и всё ещё ревущим на холостых ходах мотором."
-
-    show semen normal with dissolve
+    stop music
+    scene black with fade
+    scene bg city_square_80s with fade
+    show semen normal at pos_3 with dissolve
+    play sound "audio/sfx/sfx_street.ogg"
 
     "Сидит, сжав руль так, что пальцы побелели. Он медленно переводит взгляд на большую растяжку «СЛАВА КПСС!» на здании напротив." 
     "Его ярость так же быстро уходит, как и появилась, сменяясь новой порцией ошеломления и пустоты. Он обводит взглядом площадь, лотки, людей. \"Куда я нас привёз?\""
 
     hide sasha with dissolve
-    show vova normal at right with dissolve
+    show vova normal at pos_5 with dissolve
 
-    "Первым приходит в себя. Вытирает лоб. Его прагматизм, как броня, мгновенно срастается обратно."
+    "Вова первым приходит в себя. Вытирает лоб. Его прагматизм, как броня, мгновенно срастается обратно."
     vova "Ну... что ж. Доехали. Без приключений. Если не считать, что ты чуть не угробил нас, машину и пол-района. Но теперь мы... в эпицентре."
     
     "Он снова смотрит на площадь уже оценивающим, а не испуганным взглядом."
     vova "Да тут же... золотое дно!"
 
     hide zhenya with dissolve
-    show zhenya philosophical at left with dissolve
+    show zhenya happy at pos_1 with dissolve
 
     "Выдохнул, поправляя наушники."
     zhenya "Феерично. Абсолютно хаотичный, ни чем не обусловленный маршрут... и мы попадаем точно в точку максимальной социальной активности. Это не случайность. Это..."
 
     hide vanya with dissolve
-    show sasha normal at right with dissolve
+    show sasha normal at pos_4 with dissolve
 
     "Глушит двигатель, выдернув ключи из замка зажигания."
     sasha "Это пиздец. Больше ты за руль не сядешь, пока не отойдёшь. Договорились?"
@@ -77,13 +78,13 @@
     "Его голос спокоен, но в нём слышится сталь."
 
     hide sasha with dissolve
-    show vanya normal at right with dissolve
+    show vanya normal at pos_5 with dissolve
 
     "Смотрит в окно на лоток с соком."
     vanya "О... а там, кажется, квас... Или это пиво?.."
 
     "Все выходят из машины, ещё немного пошатываясь."
     hide all with dissolve
-    #Они оказываются именно там, где начинается сцена G1-1 «Пророк и шаверма». Теперь их замешательство и первые реакции на площади выглядят абсолютно оправданными — они только что пережили пятиминутный адреналиновый шторм."
+    #Они оказываются именно там, где начинается сцена G1-1 «Пророк и шаверма». Теперь их замешательство и первые реакции на площади выглядят абсолютно оправданными — они только что пережили пятиминутный адреналиновый шторм.
 
     jump g1_1_prophet_and_shawarma
