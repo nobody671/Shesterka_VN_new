@@ -94,6 +94,10 @@
     show volodya sireous with dissolve
     volodya "Ну что, стажёры, прослушали? Идёмте в мастерскую. Будем разбираться, за что вам платят зарплату."
 
+    volodya "Чего вы тут вообще забыли? У нас же тут военное положение. Японцы на границе. Каждый склад, каждое депо - режимный объект."
+    volodya "Даже мой гараж под присмотром. Только я договорился."
+    volodya "Все идём за мной, пока вы ещё какой-нибудь хуйни не натворили."
+
     show semen shocked with dissolve
     semen "Стой! А как же наша машина? Мы же её... мы её в депо оставили! Или она где-то тут?"
 
@@ -103,8 +107,9 @@
     show semen normal with dissolve
     semen "Чего? Кто?"
 
-    show volodya tricky with dissolve
+    show volodya happy with dissolve
     volodya "Тебя это пока что ебать не должно. Узнаешь, когда придёт время. Поехали, не люблю ждать."
+
 
     hide all with dissolve
 
@@ -150,6 +155,7 @@ label g2_3_sasha_choice:
 
 # --- МИНИ-СЦЕНА В: Принять союз Володи (Эгоизм) ---
 label g2_3_volodya_choice:
+    hide sasha with dissolve
     show semen prime at pos_3 with dissolve
     show volodya happy at pos_5 with dissolve
 
