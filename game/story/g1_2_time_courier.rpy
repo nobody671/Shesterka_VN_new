@@ -133,7 +133,7 @@
     show zhenya normal with dissolve
 
     "Женя смотрит в сторону, куда уехал Илья."
-    zhenya "Deus ex machina... в буквальном смысле! Явление высшей силы на механической колеснице!"
+    zhenya "Девятка... как рояль из кустов... в буквальном смысле!"
 
     show sasha normal with dissolve
 

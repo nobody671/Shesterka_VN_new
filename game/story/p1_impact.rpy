@@ -3,6 +3,7 @@
     stop music
 
     play sound "audio/sfx/sfx_street.ogg"
+    play music "audio/music/saspens.ogg" fadeout 1.5 fadein 1.5
     
     show semen normal at pos_3 with dissolve
     show sasha normal at pos_5 with dissolve
@@ -43,7 +44,7 @@
     "Раздаётся глухой удар."
     
     "На секунду всё замирает."
-    
+    stop music
     "Затем —"
     play sound "audio/sfx/sfx_time_travel.ogg"
     hide all with dissolve

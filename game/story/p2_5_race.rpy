@@ -49,7 +49,7 @@
     scene black with fade
     scene bg city_square_80s with fade
     show semen normal at pos_3 with dissolve
-    play sound "audio/sfx/sfx_street.ogg"
+    play music "audio/music/after_race.ogg"
 
     "Сидит, сжав руль так, что пальцы побелели. Он медленно переводит взгляд на большой плакат «СЛАВА КПСС!» на здании напротив." 
     "Его ярость так же быстро уходит, как и появилась, сменяясь новой порцией ошеломления и пустоты. Он обводит взглядом площадь, лотки, людей. \"Куда я нас привёз?\""

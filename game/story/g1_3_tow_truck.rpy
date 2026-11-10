@@ -2,6 +2,7 @@
     scene bg industrial_outskirts_morning with fade
     stop music
 
+    play music "audio/music/buksir.ogg"
     show ilya normal at pos_4 with dissolve
     show semen tired at pos_2 with dissolve
 
