@@ -197,6 +197,7 @@ label g5_ending_home:
     stop music
     play music "audio/music/cryble.ogg"
     ending_text "{size=+20}КОНЦОВКА: ВОЗВРАЩЕНИЕ ДОМОЙ{/size}\n\n{size=+10}Рациональный прорыв. Шестёрка «чудесно» работает.{/size}\n\n{size=+10}Но остался ли тот мир где-то там, за гранью?\nИ был ли это сон?{/size}"
+    # jump credits
     return
 
 
@@ -405,6 +406,7 @@ label g5_ending_burn:
     stop music
     play music "audio/music/cryble.ogg"
     ending_text "{size=+20}КОНЦОВКА: СГОРАНИЕ ШЕСТЁРКИ{/size}\n\n{size=+10}Машина не подлежит ремонту.\nНо друзья остались в прошлом — и построили новую жизнь.{/size}\n\n{size=+10}К 1985 году у них есть дом, дело и они есть друг у друга.\nА шестёрка стала их тихим сердцем.{/size}"
+    # jump credits
     return
 
 
@@ -584,6 +586,7 @@ label g5_ending_dream:
     stop music
     play music "audio/music/cryble.ogg"
     ending_text "{size=+20}КОНЦОВКА: СОН ВАНИ{/size}\n\n{size=+10}Сюр-абсурд. Временная петля.\nУлики намекают, что всё было «на самом деле».{/size}\n\n{size=+10}Был ли это сон? Или реальность, которую\nникто не хочет признавать?{/size}\n\n{size=+10}Фары шестёрки «моргают».{/size}"
+    # jump credits
     return
 
 
@@ -748,6 +751,7 @@ label g5_secret_garage:
     stop music
     play music "audio/music/cryble.ogg"
     ending_text "{size=+20}СЕКРЕТНАЯ КОНЦОВКА: СОЮЗ С ВОЛОДИНЫМ ГАРАЖОМ{/size}\n\n{size=+10}Техно-хэппиэнд. Дружба и прагматизм\nоказались сильнее абсурда.{/size}\n\n{size=+10}К 1985 году гараж Володи стал легендой.\nА шестёрка так и не была починена до конца.\nНо она была с ними. И этого было достаточно.{/size}"
+    # jump credits
     return
 
 # ============================================================
@@ -923,6 +927,7 @@ label g5_secret_bar:
     stop music
     play music "audio/music/cryble.ogg"
     ending_text "{size=+20}СЕКРЕТНАЯ КОНЦОВКА: БАР ВО ВРЕМЯ ВОЙНЫ{/size}\n\n{size=+10}Нелепый бар-убежище.\nДружба и абсурд оказались сильнее прагматизма.{/size}\n\n{size=+10}К 1985 году бар «Шестёрка» стал легендой.\nА шестёрка так и не была починена до конца.\nНо она была с ними. И этого было достаточно.{/size}"
+    # jump credits
     return
 
 # ============================================================
@@ -1092,5 +1097,5 @@ label g5_secret_shawarma:
     stop music
     play music "audio/music/cryble.ogg"
     ending_text "{size=+20}СЕКРЕТНАЯ КОНЦОВКА: ШАВЕРМА ИМПЕРИЯ{/size}\n\n{size=+10}Бизнес-концовка сомнительной морали.\nЭгоизм и абсурд оказались сильнее дружбы.{/size}\n\n{size=+10}К 1985 году «Шаверма Империя» стала легендой.\nА шестёрка так и не была починена до конца.\nНо она стала главным символом бренда.{/size}"
-
+    # jump credits
     return

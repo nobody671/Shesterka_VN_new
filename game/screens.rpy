@@ -377,6 +377,7 @@ screen main_menu():
             text "[config.version]":
                 style "main_menu_version"
 
+    timer 1.5 action Play("music", "audio/Soviet_Retro_Acoustic.ogg")
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox
