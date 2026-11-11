@@ -24,16 +24,16 @@ screen credits_screen:
             linear 20.0 yalign 0.0
         
         # Ваш текст
-        text "ИГРА СОЗДАНА В" size 30
-        text "МОЕЙ КРУТОЙ СТУДИИ" size 60
+        text _("ИГРА СОЗДАНА В") size 30
+        text _("МОЕЙ КРУТОЙ СТУДИИ") size 60
         null height 50
         
-        text "Руководитель проекта" size 30
-        text "Ваше Имя" size 40
+        text _("Руководитель проекта") size 30
+        text _("Ваше Имя") size 40
         null height 50
         
-        text "Музыка" size 30
-        text "Композитор" size 40
+        text _("Музыка") size 30
+        text _("Композитор") size 40
         null height 50
         
-        text "Спасибо за игру!" size 50
+        text _("Спасибо за игру!") size 50

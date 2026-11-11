@@ -4,5 +4,5 @@ translate english strings:
 
     # game/options.rpy:15
     old "Shesterka"
-    new ""
+    new "Shesterka"
 
